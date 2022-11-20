@@ -1,25 +1,38 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Comics-Now!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto - </title>
+
     <link rel="stylesheet" href="css/home.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+    
     <nav class="navbar"></nav>
+    <div class="separator"></div>
 
-    <header class="hero-section">
-        <div class="content">
-            <img src="img/logo.png" class="logo" alt="">
-            <ul class="subheading-container">
-                <p class="sub-heading">¡Más de 100.000 historietas en perfecta calidad a la venta!</p>
-            </ul>
+    <section class="product-details">
+        <div class="image-slider">
+            <div class="product-images">
+                <img src="img/card1.jpg" class="active" alt="">
+                <img src="img/card1.1.jpg" alt="">
+                <img src="img/card1.2.jpg" alt="">
+                <img src="img/card1.3.jpg" alt="">
+            </div>
         </div>
-    </header>
+        <div class="details">
+            <h2 class="product-brand">Batman: The Killing Joke</h2>
+            <p class="product-short-des">DETECTIVE COMICS</p>
+            <p class="product-desc">Batman: The Killing Joke realiza un recorrido en la oscura psique del príncipe payaso del crimen —desde sus humildes comienzos como un comediante hasta su fatídico encuentro con Batman, que cambia la vida de ambos para siempre—. Años después, y ahora escapado de Arkham Asylum, The Joker diseña un plan para demostrar que un mal día puede hacer que cualquiera enloquezca tanto como él y fija su objetivo en el Comisionado Gordon, hasta que el caballero de la noche decide poner fin al último plan del Joker y salvar a uno de los mejores hombres de Gotham City.</p>
+            <h2 class="product-price">1 ETH</span>
+            <p class="product-desc"></p>
+            <button class="product-btn">Agregar al carrito!</button>
+        </div>
+    </section>
 
-    <!-- cards-container-->
     <section class="product">
         <div class="m-scroll">
             <div class="m-scroll__title">LOS MÁS VENDIDOS!</div>
@@ -130,35 +143,12 @@
         </div>
     </section>
 
-    <div class="m-scroll">
-            <div class="m-scroll__title">COLECCIONES!</div>
-    </div>
-    <section class="collection-container">
-        
-        <a href="#" class="collection">
-            <img class="collection-image" src="img/comicscollection.jpg" alt="">
-            <div class="collection-logo">
-                <img src="img/comics.png" class="collection-title">
-            </div>
-        </a>
-        <a href="#" class="collection">
-            <img class="collection-image" src="img/mangacollection.jpg" alt="">
-            <div class="collection-logo">
-                <img src="img/manga.png" class="collection-title">
-            </div>
-        </a>
-        <a href="#" class="collection">
-            <img class="collection-image" src="img/novelascollection.png" alt="">
-            <div class="collection-logo">
-                <img src="img/novelasgraf.png" class="collection-title">
-            </div>
-        </a>
-    </section>
-
     <footer></footer>
 
     <script src="js/nav.js"></script>
-    <script src="js/home.js"></script>
     <script src="js/footer.js"></script>
-  </body>
+    <script src="js/home.js"></script>
+    <script src="js/product.js"></script>
+
+</body>
 </html>

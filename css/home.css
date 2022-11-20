@@ -1,4 +1,5 @@
 @import 'nav.css';
+@import 'footer.css';
 
 .hero-section{
     width: 100%;
@@ -15,6 +16,7 @@
 
 .hero-section .logo{
     height: 150px;
+    outline: 5px solid #000;
     border: 10px solid #f7ff02;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -29,6 +31,7 @@
     width: 95%;
     display: block;
     border: 5px solid #000;
+    border-top: 5px solid #f7ff02;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -55,6 +58,10 @@
     position: relative;
     overflow: hidden;
     border-bottom: 10px solid #000;
+}
+
+.separator{
+    height: 50px;
 }
 
 .m-scroll {
@@ -113,6 +120,7 @@
 
 .product-card:hover{
     transform: scale(1.05); 
+    cursor: pointer;
 }
 
 .product-image{
@@ -180,6 +188,15 @@
     color: #d1d1d1;
 }
 
+.product-desc{
+    width: 100%;
+    margin-top: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align:left;
+    color: #fff;
+}
+
 .pre-btn, .nxt-btn{
     border: none;
     width: 10vw;
@@ -236,6 +253,35 @@
     position: relative;
 }
 
+.collection-logo {
+    background: #000;
+    border: 10px solid #f7ff02;
+    outline: 5px solid #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: center;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+
+.collection-image{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 10px solid #000;
+    object-fit: cover;
+    justify-content: center;
+}
+
 .collection img{
     width: 100%;
     height: 100%;
@@ -251,7 +297,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-25%, -25%);
     text-align: center;
     color: #fff;
     font-size: 50px;
